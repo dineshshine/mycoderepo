@@ -1,0 +1,104 @@
+2023-03-24 09:40:01,397 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->prf/ob_pending
+2023-03-24 09:40:20,677 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-03-24 09:40:47,963 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-03-24 09:40:47,996 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 09:40:47,996 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-03-24 09:40:54,110 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-03-24 09:40:54,111 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 09:40:54,111 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-03-24 09:41:00,105 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-03-24 09:41:00,105 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 09:41:00,106 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-03-24 09:41:05,808 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-03-24 09:41:05,809 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 09:41:05,809 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-03-24 09:41:11,126 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-03-24 09:41:11,126 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 09:41:11,126 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-03-24 09:41:16,589 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-03-24 09:41:16,590 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 11:30:00,389 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->dispatchlist
+2023-03-24 11:30:07,384 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-03-24 11:30:21,723 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 11:30:21,731 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 11:30:21,731 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-03-24 11:30:28,565 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 11:30:28,565 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 11:30:28,565 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-03-24 11:30:34,041 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 11:30:34,041 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 11:30:34,041 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-03-24 11:30:39,461 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 11:30:39,461 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 11:30:39,461 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-03-24 11:30:44,863 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 11:30:44,863 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 11:30:44,864 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-03-24 11:30:50,415 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 11:30:50,415 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 11:30:50,415 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->HEALTH AND FITNESS
+2023-03-24 11:30:55,964 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 11:30:55,964 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 11:30:55,965 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->CONSUMABLES
+2023-03-24 11:31:01,463 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 11:31:01,463 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 16:06:01,188 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->dispatchlist
+2023-03-24 16:06:24,168 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-03-24 16:06:52,774 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 16:06:52,782 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 16:06:52,782 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-03-24 16:07:00,488 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 16:07:00,488 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 16:07:00,488 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-03-24 16:07:05,907 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 16:07:05,907 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 16:07:05,908 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-03-24 16:07:11,722 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 16:07:11,722 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 16:07:11,722 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-03-24 16:07:16,922 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 16:07:16,922 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 16:07:16,923 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-03-24 16:07:22,539 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 16:07:22,539 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 16:07:22,539 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->HEALTH AND FITNESS
+2023-03-24 16:07:27,716 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 16:07:27,716 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 16:07:27,716 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->CONSUMABLES
+2023-03-24 16:07:33,281 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-03-24 16:07:33,282 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 18:30:00,515 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->prf/ob_completed
+2023-03-24 18:30:08,148 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-03-24 18:30:20,859 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-03-24 18:30:20,867 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 18:30:20,867 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-03-24 18:30:26,349 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-03-24 18:30:26,349 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 18:30:26,349 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-03-24 18:30:31,606 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-03-24 18:30:31,606 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 18:30:31,606 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-03-24 18:30:38,126 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-03-24 18:30:38,126 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 20:00:00,097 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->stocklist
+2023-03-24 20:00:00,892 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-03-24 20:00:07,532 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-03-24 20:00:07,532 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 20:00:07,532 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-03-24 20:00:16,160 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-03-24 20:00:16,160 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 20:00:16,160 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-03-24 20:00:21,618 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-03-24 20:00:21,618 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 20:00:21,618 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-03-24 20:00:27,067 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-03-24 20:00:27,067 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 20:00:27,067 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-03-24 20:00:32,477 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-03-24 20:00:32,477 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 20:00:32,477 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-03-24 20:00:38,028 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-03-24 20:00:38,028 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-03-24 20:00:38,028 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->CONSUMABLES
+2023-03-24 20:00:43,292 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-03-24 20:00:43,292 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully

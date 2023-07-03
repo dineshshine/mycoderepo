@@ -1,0 +1,236 @@
+2023-04-17 09:27:23,693 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExcelReportApplication using Java 1.8.0_152 on DESKTOP-NCNS245 with PID 11680 (E:\sc warrr11\ExcelReport\target\classes started by Admin in E:\sc warrr11\ExcelReport)
+2023-04-17 09:27:23,745 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-04-17 09:27:24,034 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-17 09:27:24,036 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-17 09:27:27,426 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17 09:27:27,949 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 432 ms. Found 10 JPA repository interfaces.
+2023-04-17 09:27:29,764 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 90 (http)
+2023-04-17 09:27:29,808 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-90"]
+2023-04-17 09:27:29,820 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-17 09:27:29,820 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-04-17 09:27:30,519 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-04-17 09:27:30,544 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-17 09:27:30,544 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6505 ms
+2023-04-17 09:27:31,063 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-04-17 09:27:33,003 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-04-17 09:27:33,241 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-17 09:27:33,388 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.29.Final
+2023-04-17 09:27:36,889 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-17 09:27:42,243 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-17 09:28:58,629 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-17 09:29:01,197 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 09:29:30,229 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17 09:29:33,962 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-17 09:29:42,171 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2023-04-17 09:29:42,479 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-17 09:29:42,526 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-90"]
+2023-04-17 09:29:46,632 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 90 (http) with context path ''
+2023-04-17 09:29:47,211 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExcelReportApplication in 145.146 seconds (JVM running for 148.28)
+2023-04-17 09:30:11,934 INFO org.apache.juli.logging.DirectJDKLog [http-nio-90-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-17 09:30:11,934 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-90-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-17 09:30:11,937 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-90-exec-1] Completed initialization in 2 ms
+2023-04-17 09:30:24,999 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-5] Report Type -->stocklist
+2023-04-17 09:30:26,232 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-5] DepartMent -->SAG
+2023-04-17 09:30:38,884 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:30:38,885 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] Mail sent Successfully
+2023-04-17 09:30:38,885 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-5] DepartMent -->all
+2023-04-17 09:30:39,939 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-10] Report Type -->prf/ob_pending
+2023-04-17 09:30:40,182 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-10] DepartMent -->SAG
+2023-04-17 09:30:45,785 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:30:45,786 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] Mail sent Successfully
+2023-04-17 09:30:45,786 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-5] DepartMent -->SHIPL
+2023-04-17 09:30:47,279 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:30:47,280 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] Mail sent Successfully
+2023-04-17 09:30:47,280 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-10] DepartMent -->all
+2023-04-17 09:30:51,487 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:30:51,488 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] Mail sent Successfully
+2023-04-17 09:30:51,488 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-5] DepartMent -->OEM
+2023-04-17 09:30:52,021 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:30:52,021 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] Mail sent Successfully
+2023-04-17 09:30:52,022 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-10] DepartMent -->OEM
+2023-04-17 09:30:57,023 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:30:57,023 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] Mail sent Successfully
+2023-04-17 09:30:57,024 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-10] DepartMent -->SHIPL
+2023-04-17 09:30:57,665 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:30:57,666 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] Mail sent Successfully
+2023-04-17 09:30:57,666 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-5] DepartMent -->INJECTOR
+2023-04-17 09:31:02,457 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:31:02,458 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] Mail sent Successfully
+2023-04-17 09:31:02,458 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-5] DepartMent -->VENTILATOR
+2023-04-17 09:31:02,928 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:31:02,929 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] Mail sent Successfully
+2023-04-17 09:31:02,929 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-10] DepartMent -->INJECTOR
+2023-04-17 09:31:08,742 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:31:08,742 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] Mail sent Successfully
+2023-04-17 09:31:08,743 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-5] DepartMent -->CONSUMABLES
+2023-04-17 09:31:09,176 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:31:09,176 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] Mail sent Successfully
+2023-04-17 09:31:09,177 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-10] DepartMent -->VENTILATOR
+2023-04-17 09:31:14,094 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:31:14,094 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-5] Mail sent Successfully
+2023-04-17 09:31:14,832 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:31:14,833 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-10] Mail sent Successfully
+2023-04-17 09:31:39,177 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] Report Type -->scraplist
+2023-04-17 09:31:39,363 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->SAG
+2023-04-17 09:31:46,124 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-04-17 09:31:46,125 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-17 09:31:46,125 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->all
+2023-04-17 09:31:56,699 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-04-17 09:31:56,699 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-17 09:31:56,700 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->SHIPL
+2023-04-17 09:32:02,435 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-04-17 09:32:02,435 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-17 09:32:02,436 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->OEM
+2023-04-17 09:32:08,059 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-04-17 09:32:08,060 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-17 09:32:08,060 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->INJECTOR
+2023-04-17 09:32:13,470 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-04-17 09:32:13,470 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-17 09:32:13,471 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->CONSUMABLES
+2023-04-17 09:32:20,754 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-04-17 09:32:20,754 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-17 09:32:20,755 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->VENTILATOR
+2023-04-17 09:32:26,425 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-04-17 09:32:26,425 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-17 09:37:10,740 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-9] Report Type -->stocklist
+2023-04-17 09:37:10,823 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-9] DepartMent -->SAG
+2023-04-17 09:37:19,218 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:37:19,219 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] Mail sent Successfully
+2023-04-17 09:37:19,219 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-9] DepartMent -->all
+2023-04-17 09:37:25,772 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:37:25,773 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] Mail sent Successfully
+2023-04-17 09:37:25,773 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-9] DepartMent -->SHIPL
+2023-04-17 09:37:31,538 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:37:31,539 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] Mail sent Successfully
+2023-04-17 09:37:31,539 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-9] DepartMent -->OEM
+2023-04-17 09:37:37,116 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:37:37,116 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] Mail sent Successfully
+2023-04-17 09:37:37,117 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-9] DepartMent -->INJECTOR
+2023-04-17 09:37:42,930 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:37:42,931 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] Mail sent Successfully
+2023-04-17 09:37:42,931 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-9] DepartMent -->VENTILATOR
+2023-04-17 09:37:48,680 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:37:48,681 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] Mail sent Successfully
+2023-04-17 09:37:48,681 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-9] DepartMent -->CONSUMABLES
+2023-04-17 09:37:54,108 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 09:37:54,108 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-9] Mail sent Successfully
+2023-04-17 09:40:00,009 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->prf/ob_pending
+2023-04-17 09:40:00,192 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-04-17 09:40:06,280 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:40:06,280 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 09:40:06,280 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-04-17 09:40:12,865 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:40:12,866 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 09:40:12,866 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-04-17 09:40:18,702 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:40:18,703 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 09:40:18,703 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-04-17 09:40:24,624 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:40:24,624 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 09:40:24,625 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-04-17 09:40:29,975 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:40:29,976 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 09:40:29,976 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-04-17 09:40:35,641 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-17 09:40:35,642 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 10:00:00,014 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->under_repair
+2023-04-17 10:30:00,127 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->ob_pending
+2023-04-17 11:00:00,019 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->pendingfrn
+2023-04-17 11:30:00,284 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->dispatchlist
+2023-04-17 11:30:00,840 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-04-17 11:30:08,624 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 11:30:08,625 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 11:30:08,625 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-04-17 11:30:15,481 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 11:30:15,481 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 11:30:15,481 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-04-17 11:30:21,123 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 11:30:21,123 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 11:30:21,123 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-04-17 11:30:26,645 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 11:30:26,645 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 11:30:26,645 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-04-17 11:30:32,228 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 11:30:32,228 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 11:30:32,228 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-04-17 11:30:37,955 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 11:30:37,956 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 11:30:37,956 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->HEALTH AND FITNESS
+2023-04-17 11:30:43,499 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 11:30:43,499 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 11:30:43,500 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->CONSUMABLES
+2023-04-17 11:30:49,505 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 11:30:49,505 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 16:06:00,015 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->dispatchlist
+2023-04-17 16:06:00,558 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-04-17 16:06:07,125 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 16:06:07,125 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 16:06:07,126 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-04-17 16:06:13,931 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 16:06:13,953 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 16:06:13,953 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-04-17 16:06:19,790 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 16:06:19,790 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 16:06:19,790 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-04-17 16:06:25,012 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 16:06:25,012 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 16:06:25,013 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-04-17 16:06:30,280 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 16:06:30,280 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 16:06:30,280 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-04-17 16:06:35,770 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 16:06:35,771 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 16:06:35,771 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->HEALTH AND FITNESS
+2023-04-17 16:06:41,141 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 16:06:41,141 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 16:06:41,141 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->CONSUMABLES
+2023-04-17 16:06:46,573 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-04-17 16:06:46,573 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 18:30:00,029 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->prf/ob_completed
+2023-04-17 18:30:00,413 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-04-17 18:30:07,480 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-04-17 18:30:07,481 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 18:30:07,481 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-04-17 18:30:12,870 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-04-17 18:30:12,870 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 18:30:12,871 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-04-17 18:30:19,250 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-04-17 18:30:19,250 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 18:30:19,250 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-04-17 18:30:28,349 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-04-17 18:30:28,349 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 18:36:53,479 INFO org.apache.juli.logging.DirectJDKLog [http-nio-90-exec-10] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x030x000x00/*0xe00x000x000x000x000x00Cookie:]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-04-17 20:00:00,004 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->stocklist
+2023-04-17 20:00:00,200 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-04-17 20:00:07,262 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 20:00:07,262 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 20:00:07,263 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-04-17 20:00:14,064 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 20:00:14,065 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 20:00:14,065 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-04-17 20:00:19,565 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 20:00:19,565 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 20:00:19,565 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-04-17 20:00:25,382 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 20:00:25,382 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 20:00:25,382 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-04-17 20:00:30,871 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 20:00:30,871 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 20:00:30,871 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-04-17 20:00:36,310 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 20:00:36,310 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-04-17 20:00:36,310 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->CONSUMABLES
+2023-04-17 20:00:41,958 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-17 20:00:41,958 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully

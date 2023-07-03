@@ -1,0 +1,126 @@
+2023-06-26 00:03:58,557 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-61] Shutting down ExecutorService 'taskScheduler'
+2023-06-26 00:03:58,560 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-61] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-26 00:03:58,561 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-61] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-26 00:03:58,561 INFO com.zaxxer.hikari.HikariDataSource [Thread-61] HikariPool-13 - Shutdown initiated...
+2023-06-26 00:03:58,674 INFO com.zaxxer.hikari.HikariDataSource [Thread-61] HikariPool-13 - Shutdown completed.
+2023-06-26 00:03:58,751 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExcelReportApplication using Java 15.0.1 on LAPTOP-C9HD74U6 with PID 41936 (D:\schiller\ExcelReport\ExcelReport\target\classes started by Dinesh in D:\schiller\ExcelReport\ExcelReport)
+2023-06-26 00:03:58,752 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-06-26 00:03:58,927 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-26 00:03:58,952 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 25 ms. Found 10 JPA repository interfaces.
+2023-06-26 00:03:59,039 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 90 (http)
+2023-06-26 00:03:59,040 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-90"]
+2023-06-26 00:03:59,040 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-06-26 00:03:59,040 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-06-26 00:03:59,102 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-26 00:03:59,103 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-06-26 00:03:59,103 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 349 ms
+2023-06-26 00:03:59,126 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Starting...
+2023-06-26 00:03:59,144 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Start completed.
+2023-06-26 00:03:59,146 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-26 00:03:59,149 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-26 00:03:59,215 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-26 00:03:59,216 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-26 00:03:59,410 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-26 00:03:59,435 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-26 00:03:59,511 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2023-06-26 00:03:59,515 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-06-26 00:03:59,522 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-90"]
+2023-06-26 00:03:59,530 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 90 (http) with context path ''
+2023-06-26 00:03:59,534 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExcelReportApplication in 0.807 seconds (JVM running for 13946.4)
+2023-06-26 00:03:59,535 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-06-26 00:04:04,047 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-66] Shutting down ExecutorService 'taskScheduler'
+2023-06-26 00:04:04,048 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-66] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-26 00:04:04,049 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-66] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-26 00:04:04,049 INFO com.zaxxer.hikari.HikariDataSource [Thread-66] HikariPool-14 - Shutdown initiated...
+2023-06-26 00:04:04,052 INFO com.zaxxer.hikari.HikariDataSource [Thread-66] HikariPool-14 - Shutdown completed.
+2023-06-26 00:04:04,117 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExcelReportApplication using Java 15.0.1 on LAPTOP-C9HD74U6 with PID 41936 (D:\schiller\ExcelReport\ExcelReport\target\classes started by Dinesh in D:\schiller\ExcelReport\ExcelReport)
+2023-06-26 00:04:04,117 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-06-26 00:04:04,218 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-26 00:04:04,237 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18 ms. Found 10 JPA repository interfaces.
+2023-06-26 00:04:04,301 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 90 (http)
+2023-06-26 00:04:04,303 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-90"]
+2023-06-26 00:04:04,303 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-06-26 00:04:04,303 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-06-26 00:04:04,355 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-26 00:04:04,356 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-06-26 00:04:04,356 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 237 ms
+2023-06-26 00:04:04,377 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Starting...
+2023-06-26 00:04:04,394 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Start completed.
+2023-06-26 00:04:04,396 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-26 00:04:04,399 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-26 00:04:04,468 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-26 00:04:04,468 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-26 00:04:04,651 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-26 00:04:04,673 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-26 00:04:04,742 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2023-06-26 00:04:04,746 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-06-26 00:04:04,753 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-90"]
+2023-06-26 00:04:04,761 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 90 (http) with context path ''
+2023-06-26 00:04:04,767 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExcelReportApplication in 0.671 seconds (JVM running for 13951.633)
+2023-06-26 00:04:04,769 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-06-26 00:08:13,389 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-71] Shutting down ExecutorService 'taskScheduler'
+2023-06-26 00:08:13,390 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-71] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-26 00:08:13,390 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-71] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-26 00:08:13,391 INFO com.zaxxer.hikari.HikariDataSource [Thread-71] HikariPool-15 - Shutdown initiated...
+2023-06-26 00:08:13,396 INFO com.zaxxer.hikari.HikariDataSource [Thread-71] HikariPool-15 - Shutdown completed.
+2023-06-26 00:08:13,480 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExcelReportApplication using Java 15.0.1 on LAPTOP-C9HD74U6 with PID 41936 (D:\schiller\ExcelReport\ExcelReport\target\classes started by Dinesh in D:\schiller\ExcelReport\ExcelReport)
+2023-06-26 00:08:13,482 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-06-26 00:08:13,608 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-26 00:08:13,632 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 23 ms. Found 10 JPA repository interfaces.
+2023-06-26 00:08:13,706 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 90 (http)
+2023-06-26 00:08:13,706 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-90"]
+2023-06-26 00:08:13,707 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-06-26 00:08:13,707 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-06-26 00:08:13,772 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-26 00:08:13,773 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-06-26 00:08:13,773 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 290 ms
+2023-06-26 00:08:13,803 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Starting...
+2023-06-26 00:08:13,822 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Start completed.
+2023-06-26 00:08:13,825 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-26 00:08:13,829 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-26 00:08:13,915 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-26 00:08:13,916 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-26 00:08:14,124 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-26 00:08:14,150 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-26 00:08:14,217 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2023-06-26 00:08:14,221 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-06-26 00:08:14,230 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-90"]
+2023-06-26 00:08:14,239 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 90 (http) with context path ''
+2023-06-26 00:08:14,245 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExcelReportApplication in 0.791 seconds (JVM running for 14201.111)
+2023-06-26 00:08:14,247 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-06-26 00:11:01,477 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-76] Shutting down ExecutorService 'taskScheduler'
+2023-06-26 00:11:01,478 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-76] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-26 00:11:01,479 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-76] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-26 00:11:01,479 INFO com.zaxxer.hikari.HikariDataSource [Thread-76] HikariPool-16 - Shutdown initiated...
+2023-06-26 00:11:01,482 INFO com.zaxxer.hikari.HikariDataSource [Thread-76] HikariPool-16 - Shutdown completed.
+2023-06-26 00:11:01,561 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExcelReportApplication using Java 15.0.1 on LAPTOP-C9HD74U6 with PID 41936 (D:\schiller\ExcelReport\ExcelReport\target\classes started by Dinesh in D:\schiller\ExcelReport\ExcelReport)
+2023-06-26 00:11:01,561 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-06-26 00:11:01,674 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-26 00:11:01,694 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 19 ms. Found 10 JPA repository interfaces.
+2023-06-26 00:11:01,768 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 90 (http)
+2023-06-26 00:11:01,769 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-90"]
+2023-06-26 00:11:01,769 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-06-26 00:11:01,770 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-06-26 00:11:01,828 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-26 00:11:01,828 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-06-26 00:11:01,828 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 266 ms
+2023-06-26 00:11:01,854 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Starting...
+2023-06-26 00:11:01,870 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Start completed.
+2023-06-26 00:11:01,873 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-26 00:11:01,876 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-26 00:11:01,943 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-26 00:11:01,944 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-26 00:11:02,122 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-26 00:11:02,146 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-26 00:11:02,243 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2023-06-26 00:11:02,264 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-06-26 00:11:02,276 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-90"]
+2023-06-26 00:11:02,286 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 90 (http) with context path ''
+2023-06-26 00:11:02,291 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExcelReportApplication in 0.755 seconds (JVM running for 14369.157)
+2023-06-26 00:11:02,293 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-06-26 00:56:21,793 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(327)-127.0.0.1] Application shutdown requested.
+2023-06-26 00:56:21,816 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(327)-127.0.0.1] Shutting down ExecutorService 'taskScheduler'
+2023-06-26 00:56:21,817 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(327)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-26 00:56:21,817 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(327)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-26 00:56:21,819 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(327)-127.0.0.1] HikariPool-17 - Shutdown initiated...
+2023-06-26 00:56:21,823 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(327)-127.0.0.1] HikariPool-17 - Shutdown completed.

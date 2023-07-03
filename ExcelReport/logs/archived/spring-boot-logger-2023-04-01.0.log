@@ -1,0 +1,41 @@
+2023-04-01 10:39:58,362 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-1] Report Type -->stocklist
+2023-04-01 10:40:33,049 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-1] DepartMent -->SAG
+2023-04-01 10:40:58,712 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-01 10:40:58,713 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] Mail sent Successfully
+2023-04-01 10:40:58,713 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-1] DepartMent -->all
+2023-04-01 10:41:05,386 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-01 10:41:05,387 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] Mail sent Successfully
+2023-04-01 10:41:05,387 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-1] DepartMent -->SHIPL
+2023-04-01 10:41:10,849 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-01 10:41:10,849 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] Mail sent Successfully
+2023-04-01 10:41:10,849 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-1] DepartMent -->OEM
+2023-04-01 10:41:16,214 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-01 10:41:16,215 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] Mail sent Successfully
+2023-04-01 10:41:16,215 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-1] DepartMent -->INJECTOR
+2023-04-01 10:41:21,340 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-01 10:41:21,340 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] Mail sent Successfully
+2023-04-01 10:41:21,341 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-1] DepartMent -->VENTILATOR
+2023-04-01 10:41:28,799 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-01 10:41:28,799 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] Mail sent Successfully
+2023-04-01 10:41:28,800 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-1] DepartMent -->CONSUMABLES
+2023-04-01 10:41:33,976 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-04-01 10:41:33,977 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-1] Mail sent Successfully
+2023-04-01 10:42:22,871 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] Report Type -->prf/ob_pending
+2023-04-01 10:42:25,001 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->SAG
+2023-04-01 10:42:32,567 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-01 10:42:32,567 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-01 10:42:32,568 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->all
+2023-04-01 10:42:40,788 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-01 10:42:40,788 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-01 10:42:40,788 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->OEM
+2023-04-01 10:42:46,760 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-01 10:42:46,760 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-01 10:42:46,761 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->SHIPL
+2023-04-01 10:42:52,151 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-01 10:42:52,152 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-01 10:42:52,152 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->INJECTOR
+2023-04-01 10:42:57,276 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-01 10:42:57,277 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully
+2023-04-01 10:42:57,277 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-4] DepartMent -->VENTILATOR
+2023-04-01 10:43:02,738 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-04-01 10:43:02,739 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-4] Mail sent Successfully

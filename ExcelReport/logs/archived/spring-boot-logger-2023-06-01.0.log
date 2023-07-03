@@ -1,0 +1,249 @@
+2023-06-01 06:29:45,550 INFO org.apache.juli.logging.DirectJDKLog [http-nio-90-exec-8] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x030x000x00/*0xe00x000x000x000x000x00Cookie:]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-06-01 09:40:01,980 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->prf/ob_pending
+2023-06-01 09:40:03,524 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-06-01 09:40:11,804 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-06-01 09:40:11,805 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 09:40:11,805 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-06-01 09:40:18,684 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-06-01 09:40:18,684 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 09:40:18,684 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-06-01 09:40:24,224 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-06-01 09:40:24,225 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 09:40:24,225 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-06-01 09:40:29,863 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-06-01 09:40:29,863 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 09:40:29,863 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-06-01 09:40:35,476 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-06-01 09:40:35,476 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 09:40:35,476 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-06-01 09:40:40,899 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Pending'.xlsx
+2023-06-01 09:40:40,899 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 11:30:01,703 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->dispatchlist
+2023-06-01 11:30:02,071 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-06-01 11:30:09,019 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 11:30:09,020 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 11:30:09,020 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-06-01 11:30:16,797 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 11:30:16,797 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 11:30:16,797 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-06-01 11:30:22,415 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 11:30:22,415 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 11:30:22,415 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-06-01 11:30:27,859 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 11:30:27,860 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 11:30:27,860 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-06-01 11:30:33,250 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 11:30:33,250 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 11:30:33,250 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-06-01 12:03:04,676 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExcelReportApplication using Java 1.8.0_152 on DESKTOP-NCNS245 with PID 8844 (E:\sc warrr11\ExcelReport\target\classes started by Admin in E:\sc warrr11\ExcelReport)
+2023-06-01 12:03:04,701 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-06-01 12:03:05,108 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 12:03:05,109 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 12:03:13,145 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01 12:03:14,316 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1094 ms. Found 10 JPA repository interfaces.
+2023-06-01 12:03:18,863 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 90 (http)
+2023-06-01 12:03:18,927 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-90"]
+2023-06-01 12:03:18,936 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-06-01 12:03:18,936 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-06-01 12:03:19,619 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-01 12:03:19,648 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-06-01 12:03:19,649 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 14531 ms
+2023-06-01 12:03:20,842 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-06-01 12:03:23,915 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-06-01 12:03:24,604 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01 12:03:25,070 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.29.Final
+2023-06-01 12:03:25,905 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-01 12:03:26,633 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-01 12:03:30,365 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01 12:03:30,476 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 12:03:32,566 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-01 12:03:33,385 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 12:03:35,410 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2023-06-01 12:03:35,530 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-06-01 12:03:35,555 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-90"]
+2023-06-01 12:03:35,993 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 90 (http) with context path ''
+2023-06-01 12:03:36,035 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExcelReportApplication in 35.466 seconds (JVM running for 44.514)
+2023-06-01 12:11:01,436 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(19)-127.0.0.1] Application shutdown requested.
+2023-06-01 12:11:05,151 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(19)-127.0.0.1] Shutting down ExecutorService 'taskScheduler'
+2023-06-01 12:11:05,193 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(19)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-01 12:11:05,198 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(19)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 12:11:06,209 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(19)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-06-01 12:11:06,295 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(19)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-06-01 14:13:39,613 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExcelReportApplication using Java 1.8.0_152 on DESKTOP-NCNS245 with PID 11672 (E:\sc warrr11\ExcelReport\target\classes started by Admin in E:\sc warrr11\ExcelReport)
+2023-06-01 14:13:39,655 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-06-01 14:13:39,897 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 14:13:39,898 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 14:13:42,839 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01 14:13:43,250 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 345 ms. Found 10 JPA repository interfaces.
+2023-06-01 14:13:45,546 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 90 (http)
+2023-06-01 14:13:45,608 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-90"]
+2023-06-01 14:13:45,633 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-06-01 14:13:45,633 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-06-01 14:13:46,177 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-01 14:13:46,182 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-06-01 14:13:46,183 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6284 ms
+2023-06-01 14:13:46,895 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-06-01 14:13:48,838 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-06-01 14:13:49,153 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01 14:13:49,324 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.29.Final
+2023-06-01 14:13:49,874 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-01 14:13:50,296 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-01 14:13:54,684 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01 14:13:55,015 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 14:13:57,225 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-01 14:13:57,474 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 14:13:58,339 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2023-06-01 14:13:58,421 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-06-01 14:13:58,455 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-90"]
+2023-06-01 14:13:58,677 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 90 (http) with context path ''
+2023-06-01 14:13:58,700 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExcelReportApplication in 21.97 seconds (JVM running for 29.059)
+2023-06-01 14:14:04,859 INFO org.apache.juli.logging.DirectJDKLog [http-nio-90-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 14:14:04,861 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-90-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-01 14:14:04,970 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-90-exec-1] Completed initialization in 3 ms
+2023-06-01 14:14:56,044 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] Report Type -->dispatchlist
+2023-06-01 14:14:56,674 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->SAG
+2023-06-01 14:15:07,680 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 14:15:07,681 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 14:15:07,682 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->all
+2023-06-01 14:15:14,928 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 14:15:14,928 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 14:15:14,929 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->SHIPL
+2023-06-01 14:15:20,610 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 14:15:20,611 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 14:15:20,611 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->OEM
+2023-06-01 14:15:25,940 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 14:15:25,941 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 14:15:25,941 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->INJECTOR
+2023-06-01 14:15:31,302 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 14:15:31,303 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 14:15:31,303 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->VENTILATOR
+2023-06-01 14:15:37,090 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 14:15:37,091 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 14:15:37,091 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->HEALTH AND FITNESS
+2023-06-01 14:15:42,446 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 14:15:42,447 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 14:15:42,447 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->CONSUMABLES
+2023-06-01 14:15:47,835 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 14:15:47,836 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 16:06:00,031 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->dispatchlist
+2023-06-01 16:06:00,538 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-06-01 16:06:07,991 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 16:06:07,991 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 16:06:07,991 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-06-01 16:06:15,028 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 16:06:15,028 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 16:06:15,028 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-06-01 16:06:20,571 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 16:06:20,572 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 16:06:20,572 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-06-01 16:06:25,963 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 16:06:25,963 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 16:06:25,963 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-06-01 16:06:31,353 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 16:06:31,354 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 16:06:31,354 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-06-01 16:06:36,850 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 16:06:36,850 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 16:06:36,850 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->HEALTH AND FITNESS
+2023-06-01 16:06:42,160 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 16:06:42,160 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 16:06:42,161 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->CONSUMABLES
+2023-06-01 16:06:47,490 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\Dispatchlist.xlsx
+2023-06-01 16:06:47,490 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 18:30:00,091 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->prf/ob_completed
+2023-06-01 18:30:01,088 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-06-01 18:30:07,916 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-06-01 18:30:07,916 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 18:30:07,917 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-06-01 18:30:13,283 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-06-01 18:30:13,284 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 18:30:13,284 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-06-01 18:30:18,465 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\PRFOB_'Completed'.xlsx
+2023-06-01 18:30:18,465 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 20:07:07,934 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ExcelReportApplication using Java 1.8.0_152 on DESKTOP-NCNS245 with PID 5128 (E:\sc warrr11\ExcelReport\target\classes started by Admin in E:\sc warrr11\ExcelReport)
+2023-06-01 20:07:07,966 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-06-01 20:07:09,277 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 20:07:09,278 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 20:07:31,321 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01 20:07:33,632 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1917 ms. Found 10 JPA repository interfaces.
+2023-06-01 20:07:39,553 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 90 (http)
+2023-06-01 20:07:39,645 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-90"]
+2023-06-01 20:07:39,675 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-06-01 20:07:39,676 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-06-01 20:07:41,003 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-01 20:07:41,080 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-06-01 20:07:41,081 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 31773 ms
+2023-06-01 20:07:43,279 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-06-01 20:07:49,041 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-06-01 20:07:49,605 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01 20:07:50,386 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.29.Final
+2023-06-01 20:07:53,200 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-01 20:07:54,769 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-01 20:08:03,465 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01 20:08:03,668 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 20:08:07,899 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-01 20:08:08,510 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-01 20:08:10,017 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2023-06-01 20:08:10,145 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-06-01 20:08:10,178 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-90"]
+2023-06-01 20:08:11,170 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 90 (http) with context path ''
+2023-06-01 20:08:11,388 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ExcelReportApplication in 77.226 seconds (JVM running for 104.35)
+2023-06-01 20:09:56,386 INFO org.apache.juli.logging.DirectJDKLog [http-nio-90-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-01 20:09:56,388 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-90-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-01 20:09:56,393 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-90-exec-1] Completed initialization in 4 ms
+2023-06-01 20:11:18,460 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] Report Type -->stocklist
+2023-06-01 20:11:20,252 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->SAG
+2023-06-01 20:11:38,699 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-06-01 20:11:38,700 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 20:11:38,700 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->all
+2023-06-01 20:11:45,375 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-06-01 20:11:45,376 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 20:11:45,377 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->SHIPL
+2023-06-01 20:11:51,579 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-06-01 20:11:51,580 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 20:11:51,580 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->OEM
+2023-06-01 20:11:57,221 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-06-01 20:11:57,222 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 20:11:57,222 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->INJECTOR
+2023-06-01 20:12:02,456 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-06-01 20:12:02,456 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 20:12:02,457 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->VENTILATOR
+2023-06-01 20:12:08,011 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-06-01 20:12:08,012 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 20:12:08,012 INFO com.sis.ExcelReport.Controller.ReportController [http-nio-90-exec-6] DepartMent -->CONSUMABLES
+2023-06-01 20:12:13,644 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] E:\sc warrr11\ExcelReport\Stocklist.xlsx
+2023-06-01 20:12:13,644 INFO com.sis.ExcelReport.Service.EmailService [http-nio-90-exec-6] Mail sent Successfully
+2023-06-01 21:00:00,085 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] Report Type -->scraplist
+2023-06-01 21:00:00,836 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SAG
+2023-06-01 21:00:07,858 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-06-01 21:00:07,858 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 21:00:07,858 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->all
+2023-06-01 21:00:17,282 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-06-01 21:00:17,282 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 21:00:17,283 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->SHIPL
+2023-06-01 21:00:22,883 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-06-01 21:00:22,883 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 21:00:22,884 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->OEM
+2023-06-01 21:00:28,298 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-06-01 21:00:28,298 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 21:00:28,298 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->INJECTOR
+2023-06-01 21:00:33,610 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-06-01 21:00:33,610 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 21:00:33,611 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->VENTILATOR
+2023-06-01 21:00:39,263 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-06-01 21:00:39,263 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
+2023-06-01 21:00:39,264 INFO com.sis.ExcelReport.Controller.ReportController [scheduling-1] DepartMent -->CONSUMABLES
+2023-06-01 21:00:46,653 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] E:\sc warrr11\ExcelReport\ScrapList.xlsx
+2023-06-01 21:00:46,653 INFO com.sis.ExcelReport.Service.EmailService [scheduling-1] Mail sent Successfully
