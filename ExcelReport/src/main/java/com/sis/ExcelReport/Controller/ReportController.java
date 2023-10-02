@@ -103,14 +103,9 @@ public class ReportController {
 		LocalDateTime todtTime = LocalDateTime.of(today, toTime);
 
 		String reportType = "dispatchlist";
-//		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-//		String formattedString = today.format(formatter);
-//		String formattedString2 = yeserday.format(formatter);
 		String msgbody = "Dear All, \n" + "Greetings!\n"
 				+ "Kindly find the attached DispatchList Escalation Report for your reference and further proceedings";
-//		logger.info("Report Type -->"+reportType);
-//		String fdate = formattedString2.concat(" 16:06:00");
-//		String ldate = formattedString.concat(" 11:29:59");
+
 		List<String> catlist = emailService.getCatList(reportType);
 		List<MailIdEntry> mailIdList = emailService.getMailList(reportType);
 		// List<ServiceMaster> serList = reportService.getListByReportTypeandDate(fdate,
